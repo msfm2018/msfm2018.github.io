@@ -1,5 +1,188 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xbzx.online - High-performance Flutter packages</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #f8f9fa;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #0d47a1;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 1.15rem;
+      color: #555;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .packages {
+      display: grid;
+      gap: 24px;
+    }
+    .package {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .package:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+    .package h2 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+    .package h2 a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+    .package h2 a:hover {
+      text-decoration: underline;
+    }
+    .package .desc {
+      color: #444;
+      margin-bottom: 12px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .tag {
+      background: #e3f2fd;
+      color: #1565c0;
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
 <body>
-<h1>rxflare Good</h1>
+  <div class="container">
+    <header>
+      <h1>xbzx.online</h1>
+      <p>
+        High-performance, lightweight Flutter &amp; Dart packages focused on reactive state management, UI components, networking and event-driven architecture.
+      </p>
+    </header>
+
+    <div class="packages">
+
+      <!-- rxflare -->
+      <div class="package">
+        <h2><a href="https://pub.dev/packages/rxflare" target="_blank">rxflare</a></h2>
+        <p class="desc">
+          A high-performance reactive state management library for Flutter featuring automatic dependency tracking and granular field-level updates.
+        </p>
+        <div class="tags">
+          <span class="tag">state-management</span>
+          <span class="tag">reactive</span>
+          <span class="tag">flutter-widgets</span>
+          <span class="tag">performance</span>
+        </div>
+        <div class="meta">v1.6.5 · MIT · 353 downloads</div>
+      </div>
+
+      <!-- simple_tree -->
+      <div class="package">
+        <h2><a href="https://pub.dev/packages/simple_tree" target="_blank">simple_tree</a></h2>
+        <p class="desc">
+          A lightweight and simple tree menu component for Flutter Web admin panels.
+        </p>
+        <div class="tags">
+          <span class="tag">tree</span>
+          <span class="tag">treeview</span>
+          <span class="tag">reactive</span>
+          <span class="tag">performance</span>
+          <span class="tag">flutter-widgets</span>
+        </div>
+        <div class="meta">v1.1.3 · MIT · 54 downloads</div>
+      </div>
+
+      <!-- rxws -->
+      <div class="package">
+        <h2><a href="https://pub.dev/packages/rxws" target="_blank">rxws</a></h2>
+        <p class="desc">
+          A lightweight, high-performance, pure Dart WebSocket client with full protocol control.
+        </p>
+        <div class="tags">
+          <span class="tag">websocket</span>
+          <span class="tag">networking</span>
+          <span class="tag">realtime</span>
+          <span class="tag">reactive</span>
+          <span class="tag">connectivity</span>
+        </div>
+        <div class="meta">v1.1.2 · MIT · 25 downloads</div>
+      </div>
+
+      <!-- layerx -->
+      <div class="package">
+        <h2><a href="https://pub.dev/packages/layerx" target="_blank">layerx</a></h2>
+        <p class="desc">
+          A powerful overlay and dialog system for Flutter. Manage dialogs, toasts, loading, and sheets globally — no BuildContext required.
+        </p>
+        <div class="tags">
+          <span class="tag">overlay</span>
+          <span class="tag">dialog</span>
+          <span class="tag">toast</span>
+          <span class="tag">flutter</span>
+          <span class="tag">ui</span>
+        </div>
+        <div class="meta">v1.0.0.1 · MIT · 21 downloads</div>
+      </div>
+
+      <!-- mbus -->
+      <div class="package">
+        <h2><a href="https://pub.dev/packages/mbus" target="_blank">mbus</a></h2>
+        <p class="desc">
+          A lightweight and efficient event bus system for Flutter applications. Provides simple event-driven architecture with support for module-based event management and global event broadcasting.
+        </p>
+        <div class="tags">
+          <span class="tag">event-bus</span>
+          <span class="tag">event-driven</span>
+          <span class="tag">state-management</span>
+          <span class="tag">messaging</span>
+          <span class="tag">flutter</span>
+        </div>
+        <div class="meta">v0.1.1 · MIT · 12 downloads</div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>All packages published under the MIT License · <a href="https://pub.dev/publishers/xbzx.online" target="_blank">View on pub.dev</a></p>
+    </footer>
+  </div>
 </body>
 </html>
